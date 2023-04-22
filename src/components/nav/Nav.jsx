@@ -8,7 +8,7 @@ import {BsTools} from 'react-icons/bs'
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className='navigation'>
       <a href="#home"><AiOutlineHome/></a>
       <a href="#about"><CgProfile/></a>
       <a href="#Experience"><MdWorkOutline/></a> 
