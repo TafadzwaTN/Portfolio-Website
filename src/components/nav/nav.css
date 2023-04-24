@@ -1,9 +1,33 @@
 .navigation {
-    display: flex;
-    flex-direction: row;
+    background: rgba(0,0,0,0.3);
+    display: block;
+    width: max-content;
     align-items: center;
-    position: relative;
+    z-index: 2;
+    position: fixed;
+    
+    padding: 0.7rem 1.7rem;
+    left: calc(50% - 4rem);
+    bottom: 2rem;
+    display: flex;
     gap: 1rem;
-    padding-top: 20px;
-    left: calc(50% - 5rem);
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+}
+
+.navigation a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+.navigation a:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+.navigation a.active {
+    background: var(--color-bg);
+    color: var(--color-primary);
 }
