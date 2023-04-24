@@ -1,0 +1,17 @@
+.about__heading {
+    color: var(--color-primary-variant);
+}
+
+.about__h3 {
+    color: var(--color-primary-variant);
+}
+li {
+    list-style-type: circle ;
+    margin-left: 3rem;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
