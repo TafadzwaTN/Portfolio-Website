@@ -1,0 +1,77 @@
+.contacts__container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+    padding-top: 10rem;
+}
+.contact_methods_component {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 0 auto;
+  }
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: fade 24s infinite;
+    animation: fade 24s infinite;
+  }
+  #image_1 {
+    animation-delay: 0s;
+    background-image: url('../../assets/emailPNG.png');
+  }
+  #image_2 {
+    background-image: url('../../assets/whatsappPNG.png');
+    animation-delay: 8s;
+  }
+  #image_3 {
+    background-image: url('../../assets/callPNG.png');
+    animation-delay: 16s;
+  }
+  
+  
+  @-webkit-keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+

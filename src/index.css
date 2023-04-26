@@ -132,4 +132,23 @@ img {
     }
 }
 
+section.footer {
+    height: 30vh;
+}
+
+section.contacts {
+    height: 30vh;
+}
+
+.section__heading1 {
+    color: var(--color-primary-variant);
+    text-align: center;
+}
+
+.section__heading3 {
+    color: var(--color-primary-variant);
+    padding-top: 4rem;
+    text-align: center;
+}
+
 

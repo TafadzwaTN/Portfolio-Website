@@ -1,0 +1,29 @@
+.services__container {
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    gap: 2.5%;
+    padding-top: 3rem;
+}
+
+.service__component:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+}
+
+.service__component__icon:hover {
+    animation: rotation 1s linear;
+    
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
