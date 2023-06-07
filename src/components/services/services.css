@@ -1,11 +1,22 @@
 .services__container {
     display: grid;
-    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
-    gap: 2.5%;
-    padding-top: 3rem;
-    background: rgba(7, 199, 238, 0.164);
+    grid-template-columns: 25% 25% 25% 25%;
+    
+    padding-top: 1.5rem;
     z-index: 2;
-    border-radius: 2%;
+    text-align: center;
+    width: 70vw;
+}
+
+.contents {
+    background: rgba(7, 199, 238, 0.164);
+    border-radius: 11px;
+}
+
+.sections {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 1vh;
 }
 
 .service__component:hover {
@@ -16,6 +27,13 @@
 .service__component__icon:hover {
     animation: rotation 1s linear;
     
+}
+
+.services__img {
+    display: block;
+    width: 20vh;
+    object-fit: cover;
+    padding-left: 3vh;
 }
 
 @keyframes rotation {

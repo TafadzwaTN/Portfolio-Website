@@ -7,19 +7,24 @@
 .contact_methods_component {
     position: relative;
     display: block;
-    width: 100%;
+    width: fit-content;
     max-width: 400px;
-    height: 100%;
+    height: fit-content;
     margin: 0 auto;
+  }
+
+  .contacts__section {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
 .image {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+    width: 20vw;
+    height: 20vh;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-animation: fade 24s infinite;

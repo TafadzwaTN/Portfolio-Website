@@ -17,7 +17,6 @@ const Nav = () => {
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience'? 'active':''}><MdWorkOutline/></a> 
       <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav === '#services'? 'active':''}><BsTools/></a>
       <a href="#contacts" onClick={()=>setActiveNav('#contacts')} className={activeNav === '#contacts'? 'active':''}><TiContacts/></a>
-
     </nav>
   )
 }

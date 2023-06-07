@@ -8,8 +8,11 @@ li {
 
 .about__container {
     display: grid;
-    grid-template-columns: 45% 35%;
-    gap: 10%;
+    grid-template-columns:40vw 40vw 40vw 40vw 40vw 40vw;
+    height: 70vh;
+    width: var(--width-3screens);
+    
+    overflow-x: scroll;
 }
 
 .about__me {
@@ -20,6 +23,8 @@ li {
     display: flex;
     border-radius: 10%;
     transform: rotate(10deg);
+    height: 55vh;
+    width: fit-content;
 }
 
 .about__me_pic:hover {

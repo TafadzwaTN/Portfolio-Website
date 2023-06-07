@@ -11,15 +11,16 @@
 
 :root {
     --color-bg: rgb(9, 9, 10);
-    --color-bg-variant: rgb(93, 12, 223);
-    --color-primary: rgb(109, 109, 231);
-    --color-primary-variant: rgb(173, 173, 245);
+    --color-bg-variant: rgb(12, 93, 223);
+    --color-primary: rgb(45, 69, 223);
+    --color-primary-variant: rgb(14, 105, 190);
     --color-white: white;
     --color-light: rgb(202, 199, 199);
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+    --width-3screens: 240vw;
 
     --transition: all 400ms ease;
 }
@@ -37,13 +38,21 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/Texture-PNG-Transparent-Image.png);
+    
     background-size: cover;
 }
 
 .container {
-    width: var(--container-width-lg);
+    width: 80vw;
     margin: 0 auto;
+}
+
+.section__title {
+    width: 100%;
+    border-bottom: 4px solid;
+    border-color: var(--color-primary);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h1,
@@ -59,7 +68,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 10vh;
     height: 100vh;
 }
 
@@ -115,9 +124,7 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    } 
+    
     section {
         margin-top: 6rem;
     }
@@ -148,7 +155,7 @@ section.contacts {
 .section__heading3 {
     color: var(--color-primary-variant);
     padding-top: 4rem;
-    text-align: center;
+    
 }
 
 

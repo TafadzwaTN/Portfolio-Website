@@ -7,28 +7,32 @@ import ArduinoImg from '../../assets/arduinoPNG.png';
 
 const Services = () => {
   return (
-    <section id='services'>
-      <h1 className="section__heading1">Services Offered</h1>
+    <section id='services' className='sections'>
+      <div className="section__title">
+      <h1 className="section__heading1">What We Do</h1>
+      </div>
+      
+      <div className="contents">
       <div className="container services__container">
         <div className="service__component__icon">
           <div className="react__img">
-            <img src={ReactImg} alt="" />
+            <img className='services__img' src={ReactImg} alt="" />
           </div>
           
         </div>
         <div className="service__component__icon">
           <div className="flutter__img">
-            <img src={FlutterImg} alt="" />
+            <img className='services__img' src={FlutterImg} alt="" />
           </div>
         </div>
         <div className="service__component__icon">
         <div className="java__img">
-            <img src={JavaImg} alt="" />
+            <img className='services__img' src={JavaImg} alt="" />
           </div>
         </div>
         <div className="service__component__icon">
         <div className="arduino__img">
-            <img src={ArduinoImg} alt="" />
+            <img className='services__img' src={ArduinoImg} alt="" />
           </div>
         </div>
       </div>
@@ -46,6 +50,8 @@ const Services = () => {
         <h3 className="section__heading3">Arduino Prototyping</h3>
         </div>
       </div>
+      </div>
+      
     </section>
   )
 }
