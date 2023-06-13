@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 10%;
-    padding-top: 10rem;
+    border-bottom: 4px solid;
+    border-color: var(--color-primary);
 }
 .contact_methods_component {
     position: relative;
@@ -77,6 +78,50 @@
     100% {
       opacity: 1;
     }
+  }
+
+  form {
+    display: grid;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  .form__label {
+    color: var(--color-primary);
+  }
+
+  .form__input, .form__text {
+    border: 2px solid var(--color-primary);
+    
+    border-radius: 11px;
+    background: rgba(0,0,0,0.3);
+    color: whitesmoke;
+  }
+
+  .form__input {
+    height: 5vh;
+  }
+
+  .form__text {
+    height: 15vh;
+  }
+
+  .submit__btn {
+    margin-top: 4vh;
+    height: 5vh;
+    color: var(--color-bg);
+    background: var(--color-primary);
+    border-radius: 11px;
+  }
+
+  .submit__btn:hover {
+    cursor: pointer;
+  }
+
+  .thank__you {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20vh;
   }
 
 

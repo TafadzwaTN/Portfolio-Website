@@ -14,6 +14,15 @@ const About = () => {
       <div className="container about__container">
         <div className="about__company">
           <h3 className="section__heading3">Who are Ndingindi Trading</h3>
+          <article>
+            <small>Ndingindi Trading is a forward-thinking company founded by brothers Tafadzwa and Takudzwa Ndingindi. Specializing in logistics and software engineering, we provide innovative solutions to streamline supply chains and develop cutting-edge software applications. Our comprehensive logistics services encompass transportation, warehousing, inventory management, and distribution, all tailored to meet our clients' unique needs.
+
+Driven by a customer-centric approach, we collaborate closely with our clients, understanding their challenges and delivering high-quality, industry-standard solutions. With a strong focus on integrity, innovation, and reliability, we continuously learn and adapt to evolving market trends, staying at the forefront of technology and logistics advancements.
+
+Our team of skilled software engineers creates scalable, secure, and user-friendly applications that drive productivity and help businesses thrive in the digital age. We prioritize long-term partnerships and work hand-in-hand with our clients to achieve their goals.
+
+Join us on a transformative journey of growth and innovation.</small>
+          </article>
         </div>
         <div className="company__logo">
           <img src={Logo} alt="" />

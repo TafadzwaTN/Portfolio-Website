@@ -3,7 +3,7 @@
     display: block;
     width: max-content;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     
     padding: 0.7rem 1.7rem;
@@ -30,4 +30,5 @@
 .navigation a.active {
     background: var(--color-bg);
     color: var(--color-primary);
+    border: 1px dotted var(--color-primary);
 }

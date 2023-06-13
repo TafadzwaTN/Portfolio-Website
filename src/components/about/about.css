@@ -8,7 +8,7 @@ li {
 
 .about__container {
     display: grid;
-    grid-template-columns:40vw 40vw 40vw 40vw 40vw 40vw;
+    grid-template-columns:45vw 35vw 40vw 40vw 40vw 40vw;
     height: 70vh;
     width: var(--width-3screens);
     

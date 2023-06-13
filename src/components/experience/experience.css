@@ -1,0 +1,57 @@
+.our__work {
+    display: flex;
+}
+
+.sub__section {
+    width: 40vw;
+    text-align: center;
+}
+
+.see__more {
+    background: rgba(0,0,0,0.3);
+    color: var(--color-primary-variant);
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 13px;
+    margin-top: 2rem;
+    border: 1px dotted var(--color-primary);
+}
+
+.popup__contents {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.see__more:hover {
+    cursor: pointer;
+}
+
+.popup__info {
+    position: absolute;
+    text-align: left;
+    margin-left: 5vw;
+    z-index: 2;
+    width: 70vw;
+    background: var(--color-primary-variant-faded);
+    backdrop-filter: blur(5px);
+    border-radius: 11px;
+}
+
+.close__btn {
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    font-size: 30px;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    color: var(--color-primary-variant);
+}
+
+.close__btn:hover {
+    cursor: pointer;
+}

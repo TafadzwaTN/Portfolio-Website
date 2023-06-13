@@ -14,9 +14,9 @@
     --color-bg-variant: rgb(12, 93, 223);
     --color-primary: rgb(45, 69, 223);
     --color-primary-variant: rgb(14, 105, 190);
+    --color-primary-variant-faded: rgba(14, 105, 190, 0.26);
     --color-white: white;
     --color-light: rgb(202, 199, 199);
-
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -95,7 +95,13 @@ a {
 a:hover {
     color: var(--color-white);
 }
+small > a {
+    color: white;
+}
 
+small > a:hover {
+    color: var(--color-primary);
+}
 .btn {
     width: max-content;
     display: inline-block;
@@ -140,7 +146,10 @@ img {
 }
 
 section.footer {
-    height: 30vh;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 3vh;
 }
 
 section.contacts {
@@ -154,7 +163,7 @@ section.contacts {
 
 .section__heading3 {
     color: var(--color-primary-variant);
-    padding-top: 4rem;
+    
     
 }
 
